@@ -262,7 +262,7 @@ public class DoublyLinkedList<E> {
     if (L.isEmpty())
       return M;
     if (M.isEmpty())
-      return Lcd;
+      return L;
 
     Node<E> LLast = L.trailer.getPrev();
     Node<E> MFirst = M.header.getNext();
