@@ -290,8 +290,9 @@ public class DoublyLinkedList<E> {
         M.addLast("5");
         M.addLast("6");
 
+        System.out.println("List L: " + L);
+        System.out.println("List M: " + M);
         DoublyLinkedList<String> LPrime = DoublyLinkedList.concatenate(L, M);
-
         System.out.println("Concatenated lists L': " + LPrime);
   }
 } // ----------- end of DoublyLinkedList class -----------

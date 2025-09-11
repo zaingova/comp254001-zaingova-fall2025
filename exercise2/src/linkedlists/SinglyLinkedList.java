@@ -269,6 +269,7 @@ public class SinglyLinkedList<E> implements Cloneable {
     list.addLast(50);
     list.addLast(60);
 
+    System.out.println(list);
     // swap 2nd (20) and 4th (40) nodes
     // expected output is 10, 40, 30, 20, 50, 60
     list.swapNodes(list.head.getNext(), list.head.getNext().getNext().getNext());
