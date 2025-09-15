@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254_Lab1/ZainGova_COMP254_Lab1.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254_Lab1/ZainGova_COMP254_Lab1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254_Lab2/ZainGova_COMP254_Lab2.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254_Lab2/ZainGova_COMP254_Lab2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254_Lab3/ZainGova_COMP254_Lab3.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254_Lab3/ZainGova_COMP254_Lab3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254_Lab4/ZainGova_COMP254_Lab4.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254_Lab4/ZainGova_COMP254_Lab4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254_Lab5/ZainGova_COMP254_Lab5.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254_Lab5/ZainGova_COMP254_Lab5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254_Lab6/ZainGova_COMP254_Lab6.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254_Lab6/ZainGova_COMP254_Lab6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254_Lab7/ZainGova_COMP254_Lab7.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254_Lab7/ZainGova_COMP254_Lab7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254Lab1/ZainGova_COMP254Lab1.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254Lab1/ZainGova_COMP254Lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254Lab2/ZainGova_COMP254Lab2.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254Lab2/ZainGova_COMP254Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254Lab3/ZainGova_COMP254Lab3.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254Lab3/ZainGova_COMP254Lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254Lab4/ZainGova_COMP254Lab4.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254Lab4/ZainGova_COMP254Lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254Lab5/ZainGova_COMP254Lab5.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254Lab5/ZainGova_COMP254Lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254Lab6/ZainGova_COMP254Lab6.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254Lab6/ZainGova_COMP254Lab6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZainGova_COMP254Lab7/ZainGova_COMP254Lab7.iml" filepath="$PROJECT_DIR$/ZainGova_COMP254Lab7/ZainGova_COMP254Lab7.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/comp254001-zaingova-fall2025.iml" filepath="$PROJECT_DIR$/.idea/comp254001-zaingova-fall2025.iml" />
     </modules>
   </component>
