@@ -1,6 +1,6 @@
 package com.zain.exercise3;
 
-public class driver {
+public class Driver {
     public static void main(String[] args) throws CloneNotSupportedException {
         CircularlyLinkedList<String> L = new CircularlyLinkedList<String>();
         L.addFirst("One");

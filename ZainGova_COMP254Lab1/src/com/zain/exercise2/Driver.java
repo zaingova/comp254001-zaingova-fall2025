@@ -1,6 +1,6 @@
 package com.zain.exercise2;
 
-public class driver {
+public class Driver {
     public static void main(String[] args) {
         SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
         list.addFirst(10);

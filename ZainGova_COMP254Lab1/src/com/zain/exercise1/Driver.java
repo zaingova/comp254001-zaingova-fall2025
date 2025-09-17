@@ -1,6 +1,6 @@
 package com.zain.exercise1;
 
-public class driver {
+public class Driver {
     public static void main(String[] args) {
         DoublyLinkedList<String> L = new DoublyLinkedList<String>();
         DoublyLinkedList<String> M = new DoublyLinkedList<String>();
