@@ -11,28 +11,25 @@ public class Algorithm {
     public static void Find(String path, String file) {
         File dir = new File(path);
 
+        // If path isn't a directory, stop
         if (!dir.isDirectory()) {
-            System.out.println("Not a directory: "  + path);
+            System.out.println("Not a directory: " + path);
             return;
         }
 
-        if (dir.isDirectory()) {
-            File[] files = dir.listFiles();
+        File[] files = dir.listFiles();
 
-            if  (files != null) {
-                for (File filename : files) {
-                    if (filename.isDirectory()) {
-                        Find(filename.getAbsolutePath(), file);
-                    } else {
-                        if (filename.getName().equalsIgnoreCase(filename.getName())) {
-                            System.out.println("Found " + filename.getAbsolutePath());
-                        }
+        if (files != null) {
+            for (File f : files) {
+                if (f.isDirectory()) {
+                    // Recurse into subdirectory
+                    Find(f.getAbsolutePath(), file);
+                } else {
+                    // Compare to target file name
+                    if (f.getName().equalsIgnoreCase(file)) {
+                        System.out.println("Found: " + f.getAbsolutePath());
                     }
                 }
-            }
-        } else {
-            if (dir.getName().equalsIgnoreCase(file)) {
-                System.out.println("Found " + dir.getAbsolutePath());
             }
         }
     }
