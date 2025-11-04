@@ -19,8 +19,10 @@ public class Algorithm {
 
         File[] files = dir.listFiles();
 
+
         if (files != null) {
             for (File f : files) {
+                //System.out.println(f.getName());
                 if (f.isDirectory()) {
                     // Recurse into subdirectory
                     Find(f.getAbsolutePath(), file);
