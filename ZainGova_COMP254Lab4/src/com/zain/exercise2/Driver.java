@@ -17,7 +17,8 @@ public class Driver {
         System.out.println("TOP --->     T: " + as2 + "     <---- BOTTOM\n");
 
         System.out.println("transferring...\n");
-        StackUtils.transfer(as1, as2);
+        //StackUtils.transfer(as1, as2);
+        as1.transfer(as1, as2);
 
         System.out.println("TOP --->     S: " + as1 + "     <---- BOTTOM");
         System.out.println("TOP --->     T: " + as2 + "     <---- BOTTOM");

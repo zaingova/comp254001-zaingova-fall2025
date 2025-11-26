@@ -119,6 +119,12 @@ public class ArrayStack<E> implements Stack<E> {
         return sb.toString();
     }
 
+    public <E> void transfer(Stack<E> S, Stack<E> T) {
+        while (!S.isEmpty()) {
+            T.push(S.pop());
+        }
+    }
+
     /** Demonstrates sample usage of a stack. */
     public static void main(String[] args) {
         Stack<Integer> S = new ArrayStack<>();  // contents: ()
